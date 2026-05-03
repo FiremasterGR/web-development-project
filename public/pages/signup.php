@@ -1,6 +1,5 @@
 <?php 
-$currentPage="signup";
-include ('nonce.php');
+  $currentPage="signup";
 ?>
 <!DOCTYPE html>
 <html>
