@@ -1,0 +1,66 @@
+/*Αλλάζει την εμφάνιση ενός radio*/
+.RadioContainer {
+  display: inline-block;
+  position: relative;
+  margin-top: 0.5rem;
+  padding-left: 2.25rem;
+  line-height: 1.75rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+
+.RadioContainer > input[type="radio"] {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+
+.RadioCheckmark {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: #eee;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 0.1rem #c7c7c7;
+  pointer-events: none;
+}
+
+
+.RadioContainer:hover .RadioCheckmark {
+  background-color: #ccc;
+}
+
+
+.RadioContainer > input[type="radio"]:checked ~ .RadioCheckmark {
+  background-color: #2196F3;
+  box-shadow: none;
+}
+
+
+.RadioCheckmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  width: 0.875rem;
+  height: 0.875rem;
+  border-radius: 50%;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.RadioContainer > input[type="radio"]:checked ~ .RadioCheckmark:after {
+  display: block;
+}

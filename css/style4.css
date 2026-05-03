@@ -1,0 +1,44 @@
+/*Αλλαγή στυλ για checkmark*/
+.CheckmarkContainer {
+  display: inline-block;
+  position: relative;
+  padding-left: 2rem;
+  cursor: pointer;
+}
+.CheckmarkContainer input {
+  position: absolute;
+  display: none;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #f4f4f4;
+  border-radius: 0.1rem;
+  transition: background-color 0.25s ease;
+}
+.CheckmarkContainer:hover input ~ .checkmark {
+  background-color: #ededed;
+}
+.CheckmarkContainer input:checked ~ .checkmark {
+  background-color: #6fe779;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.CheckmarkContainer input:checked ~ .checkmark:after {
+  display: block;
+}
+.CheckmarkContainer .checkmark:after {
+  left: 0.5rem;
+  top: 0.25rem;
+  width: 0.4rem;
+  height: 0.65rem;
+  border: solid white;
+  border-width: 0 0.2rem 0.2rem 0;
+  transform: rotate(40deg);
+} 
