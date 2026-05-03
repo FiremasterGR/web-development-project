@@ -1,6 +1,5 @@
 <?php 
   $currentPage="contact";
-  include ('nonce.php');
 ?>
 <!DOCTYPE html>
 <html>
