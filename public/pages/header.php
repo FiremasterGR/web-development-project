@@ -8,6 +8,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/loadingscreen.js"></script>
   <script src="js/dragstopper.js" async defer></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style nonce="<?= $nonce ?>">
