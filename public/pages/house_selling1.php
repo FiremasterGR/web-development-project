@@ -8,15 +8,14 @@ include ('nonce.php');
   <title>Πώληση Ακινήτων</title>
   <meta charset="UTF-8">
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX3bwqHh6SloyF2jKqcYwAwelFnMvL2Yo&libraries=places&language=el&loading=async&callback=initMap"></script>
-  <script src="loadingscreen.js"></script>
-  <script src="dragstopper.js" async defer></script>
-  <script src="inputCheck.js" async defer></script>
-  <script src="InputClear.js" async defer></script>
-  <script src="numrestrict.js" async defer></script>
-  <script src="lightbox.js"></script>
-  <script src="LocalDatabase.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style3.css">
+  <script src="js/loadingscreen.js"></script>
+  <script src="js/inputCheck.js" async defer></script>
+  <script src="js/InputClear.js" async defer></script>
+  <script src="js/numrestrict.js" async defer></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/LocalDatabase.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style3.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
