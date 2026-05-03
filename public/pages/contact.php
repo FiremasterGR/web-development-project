@@ -12,7 +12,6 @@
   <script src="js/LocalDatabase.js" async defer></script>
   <script nonce="<?php echo $nonce; ?>" src="https://www.google.com/recaptcha/api.js?hl=el&onload=initCaptchaScaling" async defer></script>
   <script src="js/captcha_scaling.js"></script>
-  <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
