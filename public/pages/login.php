@@ -7,12 +7,11 @@
 <head>
   <title>Σύνδεση</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <script src="loadingscreen.js"></script>
-  <script src="visibilitychange.js" async defer></script>
-  <script src="inputCheck.js" async defer></script>
-  <script src="dragstopper.js" async defer></script>
+  <script src="js/visibilitychange.js" async defer></script>
+  <script src="js/inputCheck.js" async defer></script>
+  <script src="js/dragstopper.js" async defer></script>
 </head>
 <body>
   <div class="content" id="content">
