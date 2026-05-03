@@ -2,6 +2,7 @@
   session_start();
   //εάν δεν είναι συνδεδεμένος ο χρήστης εξαφανίζεται το user
   $logged = !empty($_SESSION['username']);
+  include ('nonce.php');
 ?>
 <!DOCTYPE html>
 <html>
