@@ -2,7 +2,7 @@
   session_start();
   //εάν δεν είναι συνδεδεμένος ο χρήστης εξαφανίζεται το user
   $logged = !empty($_SESSION['username']);
-  include __DIR__ . '/../../app/backend.php';
+  require_once __DIR__ . '/../../../app/project/nonce.php';
 ?>
 <!DOCTYPE html>
 <html>
