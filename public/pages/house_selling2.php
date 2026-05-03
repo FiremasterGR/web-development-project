@@ -7,15 +7,13 @@ include ('nonce.php');
 <head>
   <title>Πώληση Ακινήτων</title>
   <meta charset="UTF-8">
-  <script src="loadingscreen.js"></script>
-  <script src="InputClear.js" async defer></script>
-  <script src="inputCheck.js" async defer></script>
-  <script src="dragstopper.js" async defer></script>
-  <script src="lightbox.js" async defer></script>
-  <script src="LocalDatabase.js" async defer></script>
-  <script src="numrestrict.js" async defer></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style2.css">
+  <script src="js/InputClear.js" async defer></script>
+  <script src="js/inputCheck.js" async defer></script>
+  <script src="js/lightbox.js" async defer></script>
+  <script src="js/LocalDatabase.js" async defer></script>
+  <script src="js/numrestrict.js" async defer></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body onload="LoadSessionData()">
