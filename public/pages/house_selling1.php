@@ -1,6 +1,5 @@
 <?php 
-$currentPage="propertyinsert";
-include ('nonce.php');
+  $currentPage="propertyinsert";
 ?>
 <!DOCTYPE html>
 <html>
