@@ -1,6 +1,5 @@
 <?php 
     $currentPage="home";
-    include ('nonce.php');
 ?>
 <!DOCTYPE html>
 <html>
